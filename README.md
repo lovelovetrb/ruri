@@ -14,6 +14,32 @@
 
 ---
 
+## リモートで使う（GitHub Pages）
+
+以下のURLから直接テーマを利用できます。
+
+```
+https://lovelovetrb.github.io/ruri/ruri.css
+```
+
+### CLI
+
+```bash
+marp --theme https://lovelovetrb.github.io/ruri/ruri.css slides.md
+```
+
+### VS Code（Marp 拡張機能）
+
+`settings.json` に追加すると `theme: ruri` で使えるようになります。
+
+```json
+"markdown.marp.themes": [
+  "https://lovelovetrb.github.io/ruri/ruri.css"
+]
+```
+
+---
+
 ## 基本的な使い方
 
 ### frontmatter
